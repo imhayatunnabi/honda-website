@@ -36,7 +36,7 @@ header {
   padding-top: 140px;
   padding-left: 150px;
 }
-.heroImg .rightSide {
+.rightSide {
   width: 50%;
   align-items: center;
 }
@@ -162,4 +162,46 @@ i {
 }
 i:hover {
   color: #264653;
+}
+#faqh {
+  font-size: 48px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 40px 0 40px 0;
+}
+#faqh span {
+  color: #e77c40;
+}
+#faqImg {
+  width: 400px;
+}
+.faq {
+  display: flex;
+  padding: 0 200px 50px 200px;
+  justify-content: space-between;
+}
+footer {
+  background-color: #264653;
+  padding: 40px 0 40px 0;
+  display: flex;
+}
+#footer {
+  padding: 10px 200px 10px 200px;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 0px 0px 10px;
+}
+#footer p {
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+#footL {
+  padding-left: 300px;
+}
+#footL p {
+  color: #fff;
+  padding-left: 10px;
 }

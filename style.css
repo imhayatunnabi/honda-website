@@ -51,21 +51,20 @@ header {
   font-size: 48px;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 #featurePara {
   font-size: 16px;
   text-transform: uppercase;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 20px;
 }
 .featureBikes {
   display: flex;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-left: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 #lateN {
   font-size: 48px;
@@ -81,6 +80,7 @@ header {
 .newsCard {
   display: flex;
   padding-left: 150px;
+  padding-bottom: 70px;
 }
 .newCard {
   width: 500px;
@@ -105,4 +105,61 @@ header {
 .newCard a:hover {
   background-color: #e76f51;
   color: #fff;
+}
+#happy {
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#happy span {
+  color: #e77c40;
+}
+.clientCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 30px;
+}
+.ccard {
+  width: 300px;
+  text-align: center;
+  border: 2px solid #ad9f9b;
+  border-radius: 5px;
+}
+.ccard img {
+  width: 150px;
+  padding: 15px 0 15px 0;
+}
+#userThree {
+  border-radius: 50%;
+}
+.ccard p {
+  padding: 10px 5px 10px 5px;
+}
+.ccard h5 {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+.ccard h4 {
+  font-size: 20px;
+}
+.ccard i,
+h4,
+h5 {
+  padding: 5px 0px 5px 0px;
+}
+.rating {
+  padding: 5px 0px 5px 0px;
+}
+
+i {
+  color: #e77c40;
+}
+i:hover {
+  color: #264653;
 }

@@ -47,3 +47,62 @@ header {
 #righSide {
   padding-top: 100px;
 }
+#featureBike {
+  font-size: 48px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 10px;
+}
+#featurePara {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.featureBikes {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+}
+#lateN {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.card {
+  width: 40%;
+}
+.bikeCard img {
+  width: 400px;
+}
+.newsCard {
+  display: flex;
+  padding-left: 150px;
+}
+.newCard {
+  width: 500px;
+  box-sizing: border-box;
+}
+.newCard p {
+  inline-size: 300px;
+  overflow-wrap: break-word;
+}
+.newCard img {
+  width: 300px;
+}
+.newCard a {
+  padding: 12px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #e76f51;
+  border: 2px solid #e76f51;
+  transition: 1s;
+}
+.newCard a:hover {
+  background-color: #e76f51;
+  color: #fff;
+}

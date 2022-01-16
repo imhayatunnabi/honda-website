@@ -16,14 +16,20 @@ nav a {
   padding: 8px 10px;
   font-size: 16px;
 }
+
 #loginButton {
-  background-color: #e76f51;
+  border: 1px solid #e76f51;
   padding: 12px 40px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: 700;
-  color: #fff;
+  color: #e76f51;
   margin-left: 50px;
+  transition: 1s;
+}
+#loginButton:hover {
+  background-color: #e76f51;
+  color: #fff;
 }
 header {
   height: 100vh;
@@ -158,10 +164,10 @@ h5 {
 }
 
 i {
-  color: #e77c40;
+  color: #ad9f9b;
 }
 i:hover {
-  color: #264653;
+  color: #e76f51;
 }
 #faqh {
   font-size: 48px;
